@@ -1,0 +1,3 @@
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+RewriteEngine On
+RewriteRule ^.*$ index.php
